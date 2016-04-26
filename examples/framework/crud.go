@@ -1,8 +1,8 @@
 package framework
 
 import (
-	"github.com/flier/curator.go"
-	"github.com/samuel/go-zookeeper/zk"
+	"github.com/kwcho/curator.go"
+	"github.com/kwcho/go-zookeeper/zk"
 )
 
 func Create(client curator.CuratorFramework, path string, payload []byte) (string, error) {

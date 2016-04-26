@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/flier/curator.go"
-	"github.com/samuel/go-zookeeper/zk"
+	"github.com/kwcho/curator.go"
+	"github.com/kwcho/go-zookeeper/zk"
 )
 
 const LockPrefix = "lock-"

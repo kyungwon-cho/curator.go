@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flier/curator.go"
+	"github.com/kwcho/curator.go"
 	"github.com/pmezard/go-difflib/difflib"
-	"github.com/samuel/go-zookeeper/zk"
+	"github.com/kwcho/go-zookeeper/zk"
 )
 
 // The action type; any of create/delete/setvalue.

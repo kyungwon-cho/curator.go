@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/samuel/go-zookeeper/zk"
+	"github.com/kwcho/go-zookeeper/zk"
 )
 
 const (
